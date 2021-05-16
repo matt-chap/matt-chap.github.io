@@ -1,3 +1,45 @@
-.current { color: green; }
+html, body { height: 100%; width: 100%; margin: 0; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #001B3A; }
+
+h1, h2 { color: white; }
+
+h1 { padding-left: 10px; }
+
+p { color: white; }
+
+ul { text-align: center; width: 50px; }
+
+nav { height: 50px; line-height: 50px; font-size: 25px; background-color: #00001A; }
+
+nav > div { display: inline-block; width: 200px; text-align: center; }
+
+nav > div { display: inline-block; width: 200px; text-align: center; }
+
+.nav-selected { color: lightblue; text-decoration: none; border-bottom: lightblue solid 1px; }
+
+.nav-selected > a:link { color: lightblue; text-decoration: none; }
+
+.nav-selected > a:visited { color: lightblue; text-decoration: none; }
+
+.nav-selected > a:hover { color: lightblue; text-decoration: none; }
+
+.nav-not-selected { color: #d3d3d3; text-decoration: none; }
+
+.nav-not-selected > a:link { color: #d3d3d3; text-decoration: none; }
+
+.nav-not-selected > a:visited { color: #d3d3d3; text-decoration: none; }
+
+.nav-not-selected > a:hover { color: slategray; text-decoration: none; }
+
+.project-body { display: inline-block; width: 100%; text-align: center; }
+
+.project-card { background-color: #00001A; height: 400px; width: 400px; margin: 10px; text-align: center; display: inline-grid; }
+
+.project-image { width: 250px; height: 225px; overflow: hidden; margin: auto; }
+
+.about-side-tab { display: inline-grid; width: 300px; }
+
+.about-image { border-radius: 150px; }
+
+.about-content { display: inline-grid; min-width: 300px; max-width: 600px; }
 
 /*# sourceMappingURL=styles.css.map */

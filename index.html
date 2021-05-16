@@ -1,5 +1,17 @@
 ---
 layout: default
-title: Home
+title: My Projects
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>My Projects</h1>
+
+<div class="project-body">
+  {% for project in site.projects %}
+    <div class="project-card">
+      <h2>{{ project.name }}</h2>
+      <div class="project-image">
+        <img src="{{ project.image_url }}" alt="{{ project.image_alt }}" width="{{project.image_width}}" />
+      </div>
+      {{ project.content | markdownify }}
+    </div>
+  {% endfor %}
+</div>

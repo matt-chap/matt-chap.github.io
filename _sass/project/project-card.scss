@@ -1,0 +1,21 @@
+.project-body {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #00001A;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    display: inline-grid;
+}
+
+.project-image {
+    width: 250px;
+    height: 225px;
+    overflow: hidden;
+    margin: auto;
+}
