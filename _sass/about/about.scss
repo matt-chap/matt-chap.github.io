@@ -1,10 +1,13 @@
 .about-body {
-
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .about-side-tab {
     display: inline-grid;
     width: 300px;
+    text-align: center;
 }
 
 .about-image-container {
@@ -16,11 +19,14 @@
 }
 
 .about-social-media {
-
+    display: inline-block;
+    width: 200px;
+    margin: auto;
 }
 
 .about-content {
     display: inline-grid;
     min-width: 300px;
     max-width: 600px;
+    vertical-align: top;
 }
