@@ -1,6 +1,21 @@
-html, body { height: 100%; width: 100%; margin: 0; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #001B3A; }
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #B3B3B3 - Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
+html, body { height: 100%; width: 100%; margin: 0; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; }
 
 h1, h2, h3, h4 { color: #fff; }
+
+h3 { color: #FFFF5F; }
+
+h4 { color: #C1C181; }
 
 h1 { padding-left: 10px; }
 
@@ -8,11 +23,11 @@ h3, h4 { text-align: left; line-height: 1px; padding-top: 15px; padding-bottom: 
 
 i { color: white; }
 
-tr { color: white; }
+tr { color: #efebf3; }
 
-p { color: white; }
+p { color: #efebf3; }
 
-li { color: white; }
+li { color: #efebf3; }
 
 ul { text-align: center; width: 50px; }
 
