@@ -21,13 +21,13 @@ h1 { padding-left: 10px; }
 
 h3, h4 { text-align: left; line-height: 1px; padding-top: 15px; padding-bottom: 0px; margin: 0px; }
 
-i { color: white; }
+i { color: #fff; }
 
-tr { color: #efebf3; }
+tr { color: #fff; }
 
-p { color: #efebf3; }
+p { color: #fff; }
 
-li { color: #efebf3; }
+li { color: #fff; }
 
 ul { text-align: center; width: 50px; }
 
@@ -59,15 +59,15 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .project-image { width: 250px; height: 225px; overflow: hidden; margin: auto; }
 
-.about-body { display: inline-block; width: 100%; text-align: center; }
+.about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
-.about-side-tab { display: inline-grid; width: 300px; text-align: center; }
+.about-side-tab { display: inline-block; text-align: center; padding: 20px; }
 
 .about-image { border-radius: 150px; }
 
 .about-social-media { display: inline-block; width: 200px; margin: auto; }
 
-.about-content { display: inline-grid; min-width: 300px; max-width: 600px; vertical-align: top; }
+.about-content { display: inline-grid; vertical-align: top; }
 
 .about-paragraph { text-align: left; }
 

@@ -1,13 +1,14 @@
 .about-body {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
 }
 
 .about-side-tab {
-    display: inline-grid;
-    width: 300px;
+    display: inline-block;
     text-align: center;
+    padding: 20px;
 }
 
 .about-image-container {
@@ -26,8 +27,6 @@
 
 .about-content {
     display: inline-grid;
-    min-width: 300px;
-    max-width: 600px;
     vertical-align: top;
 }
 
