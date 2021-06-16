@@ -37,19 +37,13 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 nav > div { display: inline-block; width: 200px; text-align: center; }
 
-.nav-selected { color: lightblue; text-decoration: none; border-bottom: lightblue solid 1px; }
+.nav-selected { text-decoration: none; border-bottom: #FFFF5F solid 1px; }
 
-.nav-selected > a:link { color: lightblue; text-decoration: none; }
+.nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { color: #FFFF5F; text-decoration: none; }
 
-.nav-selected > a:visited { color: lightblue; text-decoration: none; }
+.nav-not-selected { text-decoration: none; }
 
-.nav-selected > a:hover { color: lightblue; text-decoration: none; }
-
-.nav-not-selected { color: #d3d3d3; text-decoration: none; }
-
-.nav-not-selected > a:link { color: #d3d3d3; text-decoration: none; }
-
-.nav-not-selected > a:visited { color: #d3d3d3; text-decoration: none; }
+.nav-not-selected > a:link, .nav-not-selected > a:visited { color: #fff; text-decoration: none; }
 
 .nav-not-selected > a:hover { color: slategray; text-decoration: none; }
 
@@ -67,7 +61,7 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-social-media { display: inline-block; width: 200px; margin: auto; }
 
-.about-content { display: inline-grid; vertical-align: top; }
+.about-content { display: inline-grid; vertical-align: top; padding: 20px; }
 
 .about-paragraph { text-align: left; }
 

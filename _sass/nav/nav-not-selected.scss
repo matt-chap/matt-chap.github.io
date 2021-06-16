@@ -1,19 +1,14 @@
-.nav-not-selected { 
-  color: #d3d3d3;
+.nav-not-selected {
   text-decoration: none;
 }
 
-.nav-not-selected > a:link{ 
-  color: #d3d3d3;
-  text-decoration: none;
-}
-
-.nav-not-selected > a:visited {
-  color: #d3d3d3;
+.nav-not-selected > a:link, .nav-not-selected > a:visited { 
+  color: #fff;
   text-decoration: none;
 }
 
 .nav-not-selected > a:hover  { 
   color: slategray;
+  //color: #d3d3d3;
   text-decoration: none;
 }

@@ -1,20 +1,9 @@
-.nav-selected { 
-  color: lightblue;
+.nav-selected {
   text-decoration: none;
-  border-bottom: lightblue solid 1px
+  border-bottom: #FFFF5F solid 1px
 }
 
-.nav-selected > a:link{ 
-  color: lightblue;
-  text-decoration: none;
-}
-
-.nav-selected > a:visited {
-  color: lightblue;
-  text-decoration: none;
-}
-
-.nav-selected > a:hover  { 
-  color: lightblue;
+.nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover{ 
+  color: #FFFF5F;
   text-decoration: none;
 }
