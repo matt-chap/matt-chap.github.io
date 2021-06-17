@@ -65,4 +65,16 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-paragraph { text-align: left; }
 
+.about-header { font-size: 3em; }
+
+.about-skills-container { display: flex; justify-content: center; flex-wrap: wrap; min-width: 650px; }
+
+.about-skills-block { display: flex; padding: 20px; justify-content: center; }
+
+.about-skills-name { padding: 0px 10px; width: 125px; width: 150px; font-size: 20px; color: #FFFF5F; }
+
+.about-skills-stats-good { word-wrap: none; color: #FFFF5F; }
+
+.about-skills-stats-working { word-wrap: none; color: slategray; }
+
 /*# sourceMappingURL=styles.css.map */
