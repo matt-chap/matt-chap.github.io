@@ -57,7 +57,7 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-side-tab { display: inline-block; text-align: center; padding: 20px; }
 
-.about-image { border-radius: 150px; }
+.about-image { border-radius: 150px; min-width: 150px; min-height: 150px; width: 15vw; height: 15vw; max-width: 250px; max-height: 250px; }
 
 .about-social-media { display: inline-block; width: 200px; margin: auto; }
 
@@ -67,9 +67,9 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-header { font-size: 3em; }
 
-.about-skills-container { display: flex; justify-content: center; flex-wrap: wrap; min-width: 650px; }
+.about-skills-container { display: flex; justify-content: center; flex-wrap: wrap; }
 
-.about-skills-block { display: flex; padding: 20px; justify-content: center; }
+.about-skills-block { display: flex; padding: 20px; justify-content: center; width: 275px; }
 
 .about-skills-name { padding: 0px 10px; width: 125px; width: 150px; font-size: 20px; color: #FFFF5F; }
 
