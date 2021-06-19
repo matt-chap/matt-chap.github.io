@@ -55,11 +55,17 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
-.about-side-tab { display: inline-block; text-align: center; padding: 20px; }
+.about-side-tab { display: flex; text-align: center; padding: 20px; flex-wrap: wrap; }
+
+.about-img-social-container { display: flex; align-items: center; width: 30%; flex-wrap: wrap; }
+
+.about-image-container { margin: auto; }
 
 .about-image { border-radius: 150px; min-width: 150px; min-height: 150px; width: 15vw; height: 15vw; max-width: 250px; max-height: 250px; }
 
-.about-social-media { display: inline-block; width: 200px; margin: auto; }
+.about-social-media { width: 200px; margin: auto; }
+
+.about-sum-tech-container { width: 70%; }
 
 .about-content { display: inline-grid; vertical-align: top; padding: 20px; }
 
@@ -76,5 +82,7 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 .about-skills-stats-good { word-wrap: none; color: #FFFF5F; }
 
 .about-skills-stats-working { word-wrap: none; color: slategray; }
+
+@media only screen and (max-width: 1000px) { .about-img-social-container { flex-basis: 100%; } .about-sum-tech-container { flex-basis: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

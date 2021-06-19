@@ -6,13 +6,21 @@
 }
 
 .about-side-tab {
-    display: inline-block;
+    display: flex;
     text-align: center;
     padding: 20px;
+    flex-wrap: wrap;
+}
+
+.about-img-social-container {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
 }
 
 .about-image-container {
-
+    margin: auto;
 }
 
 .about-image {
@@ -26,9 +34,13 @@
 }
 
 .about-social-media {
-    display: inline-block;
     width: 200px;
     margin: auto;
+}
+
+
+.about-sum-tech-container {
+    width: 70%;
 }
 
 .about-content {
@@ -74,4 +86,13 @@
 .about-skills-stats-working {
     word-wrap: none;
     color: slategray;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-img-social-container {
+        flex-basis: 100%;
+    }
+    .about-sum-tech-container{
+        flex-basis: 100%;
+    }
 }
