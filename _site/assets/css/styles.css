@@ -9,7 +9,7 @@
 *   #FFFF5F
 *   
 */
-html, body { height: 100%; width: 100%; margin: 0; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; }
+html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; }
 
 h1, h2, h3, h4 { color: #fff; }
 
@@ -17,9 +17,11 @@ h3 { color: #FFFF5F; }
 
 h4 { color: #C1C181; }
 
+b { font-weight: bold; }
+
 h1 { padding-left: 10px; }
 
-h3, h4 { text-align: left; line-height: 1px; padding-top: 15px; padding-bottom: 0px; margin: 0px; }
+h3, h4 { text-align: left; margin: 5px 0px; }
 
 i { color: #fff; }
 
@@ -69,7 +71,7 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-content { display: inline-grid; vertical-align: top; padding: 20px; }
 
-.about-paragraph { text-align: left; }
+.about-paragraph { text-align: left; margin: 0px; }
 
 .about-header { font-size: 3em; }
 

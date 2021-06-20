@@ -13,10 +13,8 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
   font-family: "Open Sans",sans-serif;
   font-weight: 300;
-  //background-color: #001B3A;
   background-color: #000022;
 }
 
@@ -32,6 +30,9 @@ h4{
   color: #C1C181;
 }
 
+b {
+  font-weight: bold;
+}
 
 
 h1 {
@@ -40,10 +41,7 @@ h1 {
 
 h3, h4 {
   text-align: left;
-  line-height: 1px;
-  padding-top: 15px;
-  padding-bottom: 0px;
-  margin: 0px;
+  margin: 5px 0px;
 }
 
 i {
