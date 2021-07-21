@@ -5,12 +5,14 @@ title: My Projects
 
 <div class="project-body">
   {% for project in site.projects %}
-    <div class="project-card">
-      <h2>{{ project.name }}</h2>
-      <div class="project-image">
-        <img src="{{ project.image_url }}" alt="{{ project.image_alt }}" width="{{project.image_width}}" />
+    <a href="/{{project.link}}.html">
+      <div class="project-card">
+        <h2>{{ project.name }}</h2>
+        <div class="project-image">
+          <img src="{{ project.image_url }}" alt="{{ project.image_alt }}" width="{{project.image_width}}" />
+        </div>
+        {{ project.content | markdownify }}
       </div>
-      {{ project.content | markdownify }}
-    </div>
+    </a>
   {% endfor %}
 </div>
