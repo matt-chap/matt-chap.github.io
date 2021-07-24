@@ -65,3 +65,15 @@ ul {
   text-align: center;
   width: 50px;
 } 
+
+a {
+  color: #FFFF5F;
+}
+
+a::before{
+  color: #FFFF5F;
+}
+
+a::after{
+  color: #C1C181;
+}

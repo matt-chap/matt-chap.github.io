@@ -33,6 +33,12 @@ li { color: #fff; }
 
 ul { text-align: center; width: 50px; }
 
+a { color: #FFFF5F; }
+
+a::before { color: #FFFF5F; }
+
+a::after { color: #C1C181; }
+
 nav { height: 50px; line-height: 50px; font-size: 25px; background-color: #00001A; }
 
 nav > div { display: inline-block; width: 200px; text-align: center; }
