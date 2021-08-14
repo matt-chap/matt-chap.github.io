@@ -38,7 +38,6 @@
     margin: auto;
 }
 
-
 .about-sum-tech-container {
     width: 70%;
 }
@@ -58,6 +57,11 @@
     font-size: 3em;
 }
 
+.about-sub-header {
+    color: khaki;
+    font-size: 1em;
+}
+
 .about-skills-container {
     display: flex;
     justify-content: center;
@@ -73,19 +77,20 @@
 
 .about-skills-name {
     padding: 0px 10px;
-    width: 125px;
     width: 150px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFF5F;
 }
 
-.about-skills-stats-good {
+.about-skills-stats {
     word-wrap: none;
+}
+
+.about-skills-stats-good {
     color: #FFFF5F;
 }
 
 .about-skills-stats-working {
-    word-wrap: none;
     color: slategray;
 }
 

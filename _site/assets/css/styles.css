@@ -9,7 +9,7 @@
 *   #FFFF5F
 *   
 */
-html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; }
+html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; padding: 0px; margin: 0px; }
 
 h1, h2, h3, h4 { color: #fff; }
 
@@ -38,6 +38,10 @@ a { color: #FFFF5F; }
 a::before { color: #FFFF5F; }
 
 a::after { color: #C1C181; }
+
+.float-left { float: left; }
+
+.float-right { float: right; }
 
 nav { height: 50px; line-height: 50px; font-size: 25px; background-color: #00001A; }
 
@@ -81,15 +85,19 @@ nav > div { display: inline-block; width: 200px; text-align: center; }
 
 .about-header { font-size: 3em; }
 
+.about-sub-header { color: khaki; font-size: 1em; }
+
 .about-skills-container { display: flex; justify-content: center; flex-wrap: wrap; }
 
 .about-skills-block { display: flex; padding: 20px; justify-content: center; width: 275px; }
 
-.about-skills-name { padding: 0px 10px; width: 125px; width: 150px; font-size: 20px; color: #FFFF5F; }
+.about-skills-name { padding: 0px 10px; width: 150px; font-size: 1.25rem; color: #FFFF5F; }
 
-.about-skills-stats-good { word-wrap: none; color: #FFFF5F; }
+.about-skills-stats { word-wrap: none; }
 
-.about-skills-stats-working { word-wrap: none; color: slategray; }
+.about-skills-stats-good { color: #FFFF5F; }
+
+.about-skills-stats-working { color: slategray; }
 
 @media only screen and (max-width: 1000px) { .about-img-social-container { flex-basis: 100%; } .about-sum-tech-container { flex-basis: 100%; } }
 
