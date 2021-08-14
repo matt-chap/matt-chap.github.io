@@ -10,7 +10,7 @@ title: My Projects
     <div class="project-image">
       <img src="{{ project.image_url }}" alt="{{ project.image_alt }}" width="{{project.image_width}}" />
     </div>
-    {{ project.content | markdownify }}
+    <div style="padding: 0vh 1vw;">{{ project.content }}</div>
   </div>
   {% endfor %}
 </div>

@@ -6,9 +6,10 @@
 
 .project-card {
     background-color: #00001A;
-    height: 400px;
-    width: 400px;
-    margin: 10px;
+    height: fit-content;
+    width: 30vw;
+    @include fluid-type(min-width, 600px, 1200px, 90vw, 30vw);
+    margin: 5vw;
     text-align: center;
     display: inline-grid;
 }

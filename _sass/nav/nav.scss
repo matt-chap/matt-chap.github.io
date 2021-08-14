@@ -1,18 +1,13 @@
 nav {
-    height: 50px;
-    line-height: 50px;
+    height: 5vh;
+    line-height: 5vh;
     font-size: 25px;
     background-color: #00001A;
   }
   
   nav > div {
     display: inline-block;
-    width: 200px;
+    @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
     text-align: center;
   }
   
-  nav > div {
-    display: inline-block;
-    width: 200px;
-    text-align: center;
-  }

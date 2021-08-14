@@ -10,6 +10,29 @@
 *   
 */
 
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
+
+  @media screen and (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+    }
+  }
+
+  @media screen and (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -25,6 +48,7 @@ h1, h2, h3, h4 {
 }
 
 h3{
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 2vw);
   color: #FFFF5F;
 }
 
@@ -42,11 +66,13 @@ h1 {
 }
 
 h3, h4 {
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   text-align: left;
   margin: 5px 0px;
 }
 
 i {
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   color: #fff;
   
 }
@@ -56,10 +82,12 @@ tr {
 }
 
 p {
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   color: #fff;
 }
 
 li {
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   color: #fff;
 }
 
@@ -69,6 +97,7 @@ ul {
 } 
 
 a {
+  @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   color: #FFFF5F;
 }
 
@@ -87,3 +116,4 @@ a::after{
 .float-right {
   float: right;
 }
+
