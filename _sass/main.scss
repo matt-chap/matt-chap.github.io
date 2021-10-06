@@ -43,7 +43,7 @@ h3{
 }
 
 h4{
-  color: #C1C181;
+  color: $third_text_color;
 }
 
 b {
@@ -96,7 +96,7 @@ a::before{
 }
 
 a::after{
-  color: #C1C181;
+  color: $third_text_color;
 }
 
 .float-left {
