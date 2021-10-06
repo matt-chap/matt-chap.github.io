@@ -34,12 +34,12 @@ html, body {
 }
 
 h1, h2, h3, h4 {
-  color: #fff;
+  color: $primary_text_color;
 }
 
 h3{
   @include fluid-type(font-size, 600px, 1200px, 4vw, 2vw);
-  color: #FFFF5F;
+  color: $header_text_color;
 }
 
 h4{
@@ -63,22 +63,22 @@ h3, h4 {
 
 i {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: #fff;
+  color: $primary_text_color;
   
 }
 
 tr {
-  color: #fff;
+  color: $primary_text_color;
 }
 
 p {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: #fff;
+  color: $primary_text_color;
 }
 
 li {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: #fff;
+  color: $primary_text_color;
 }
 
 ul {
@@ -88,11 +88,11 @@ ul {
 
 a {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: #FFFF5F;
+  color: $header_text_color;
 }
 
 a::before{
-  color: #FFFF5F;
+  color: $header_text_color;
 }
 
 a::after{
