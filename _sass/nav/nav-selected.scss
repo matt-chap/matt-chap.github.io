@@ -2,10 +2,10 @@
 
 .nav-selected {
   text-decoration: none;
-  border-bottom: #FFFF5F solid 1px
+  border-bottom: $header_text_color solid 1px
 }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover{ 
-  color: #FFFF5F;
+  color: $header_text_color;
   text-decoration: none;
 }
