@@ -10,7 +10,6 @@
 }
 
 .nav-not-selected > a:hover  { 
-  color: slategray;
-  //color: #d3d3d3;
+  color: $color_dark_three;
   text-decoration: none;
 }
