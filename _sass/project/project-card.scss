@@ -7,7 +7,7 @@
 }
 
 .project-card {
-    background-color: #00001A;
+    background-color: $color_light_black;
     height: fit-content;
     width: 30vw;
     @include fluid-type(min-width, 600px, 1200px, 90vw, 30vw);
