@@ -11,7 +11,7 @@
 */
 html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; padding: 0px; margin: 0px; }
 
-h1, h2, h3, h4 { color: #fff; }
+h1, h2, h3, h4 { color: #FFFFFF; }
 
 h3 { font-size: 4vw; color: #FFFF5F; }
 
@@ -31,21 +31,21 @@ h3, h4 { font-size: 4vw; text-align: left; margin: 5px 0px; }
 
 @media screen and (min-width: 1200px) { h3, h4 { font-size: 1vw; } }
 
-i { font-size: 4vw; color: #fff; }
+i { font-size: 4vw; color: #FFFFFF; }
 
 @media screen and (min-width: 600px) { i { font-size: calc(4vw + -3 * (100vw - 600px) / 600); } }
 
 @media screen and (min-width: 1200px) { i { font-size: 1vw; } }
 
-tr { color: #fff; }
+tr { color: #FFFFFF; }
 
-p { font-size: 4vw; color: #fff; }
+p { font-size: 4vw; color: #FFFFFF; }
 
 @media screen and (min-width: 600px) { p { font-size: calc(4vw + -3 * (100vw - 600px) / 600); } }
 
 @media screen and (min-width: 1200px) { p { font-size: 1vw; } }
 
-li { font-size: 4vw; color: #fff; }
+li { font-size: 4vw; color: #FFFFFF; }
 
 @media screen and (min-width: 600px) { li { font-size: calc(4vw + -3 * (100vw - 600px) / 600); } }
 
@@ -67,6 +67,17 @@ a::after { color: #C1C181; }
 
 .float-right { float: right; }
 
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #555252 - Dark Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
 nav { height: 5vh; line-height: 5vh; font-size: 25px; background-color: #00001A; }
 
 nav > div { display: inline-block; width: 30vw; text-align: center; }
@@ -75,16 +86,49 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 @media screen and (min-width: 1200px) { nav > div { width: 10vw; } }
 
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #555252 - Dark Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
 .nav-selected { text-decoration: none; border-bottom: #FFFF5F solid 1px; }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { color: #FFFF5F; text-decoration: none; }
 
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #555252 - Dark Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
 .nav-not-selected { text-decoration: none; }
 
-.nav-not-selected > a:link, .nav-not-selected > a:visited { color: #fff; text-decoration: none; }
+.nav-not-selected > a:link, .nav-not-selected > a:visited { color: #FFFFFF; text-decoration: none; }
 
 .nav-not-selected > a:hover { color: slategray; text-decoration: none; }
 
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #555252 - Dark Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
 .project-body { display: inline-block; width: 100%; text-align: center; }
 
 .project-card { background-color: #00001A; height: fit-content; width: 30vw; min-width: 90vw; margin: 5vw; text-align: center; display: inline-grid; }
@@ -95,6 +139,17 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 .project-image { width: 250px; height: 225px; overflow: hidden; margin: auto; }
 
+/*
+* Color Palette
+*   #000022 - Dark Blue
+*   #0C1F34 - Blue
+*   #102945 - Blue
+*   #555252 - Dark Grey
+*   #efebf3 - Light Grey
+*   #C1C181 - light yellow
+*   #FFFF5F
+*   
+*/
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
 .about-side-tab { display: flex; text-align: center; padding: 20px; flex-wrap: wrap; }
