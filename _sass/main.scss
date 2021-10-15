@@ -1,4 +1,7 @@
 @import "./utilities/variables";
+@import "./utilities/dark_theme";
+@import "./utilities/light_theme";
+
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);

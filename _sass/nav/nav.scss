@@ -13,3 +13,11 @@ nav {
     text-align: center;
   }
   
+#btn_theme {
+  background-color: $color_light_black;
+  color: $header_text_color;
+  border-color: $header_text_color;
+  border-radius: 10px;
+  @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
+  float: right;
+}

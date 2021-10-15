@@ -1,0 +1,3 @@
+const toggleThemeType = () => {
+    alert("Toggle");
+}

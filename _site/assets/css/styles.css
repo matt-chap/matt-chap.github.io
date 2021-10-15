@@ -86,6 +86,12 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 @media screen and (min-width: 1200px) { nav > div { width: 10vw; } }
 
+#btn_theme { background-color: #00001A; color: #FFFF5F; border-color: #FFFF5F; border-radius: 10px; width: 30vw; float: right; }
+
+@media screen and (min-width: 600px) { #btn_theme { width: calc(30vw + -20 * (100vw - 600px) / 600); } }
+
+@media screen and (min-width: 1200px) { #btn_theme { width: 10vw; } }
+
 /*
 * Color Palette
 *   #000022 - Dark Blue
