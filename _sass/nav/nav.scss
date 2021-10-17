@@ -21,3 +21,9 @@ nav {
   @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
   float: right;
 }
+
+#btn_theme_svg {
+  height: 24px;
+  width: 24px;
+  fill: $header_text_color;
+}

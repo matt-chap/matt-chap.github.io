@@ -1,13 +1,12 @@
 const toggleThemeType = () => {
     let btn_theme_txt = document.getElementById("btn_theme_txt");
-    let btn_theme_img = document.getElementById("btn_theme_img");
+    let btn_theme_svg_src = document.getElementById("btn_theme_svg_src"); //TODO: fix svg switch
 
-    if (btn_theme_txt.textContent === "Light Theme"){
-        btn_theme_txt.textContent = "Dark Theme";
-        btn_theme_img.src = "assets/images/icons/dark_mode_black_24dp.svg";
+    if (btn_theme_txt.textContent === "Dark Theme: Off"){
+        btn_theme_txt.textContent = "Dark Theme: On";
+        btn_theme_svg_src.href = "assets/images/icons/modes.svg#dark_mode";
     }else{
-        btn_theme_txt.textContent = "Light Theme";
-        btn_theme_img.src = "assets/images/icons/light_mode_black_24dp.svg";
+        btn_theme_txt.textContent = "Dark Theme: Off";
+        btn_theme_svg_src.href = "assets/images/icons/modes.svg#light_mode";
     }
-    
 }

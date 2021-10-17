@@ -92,6 +92,8 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 @media screen and (min-width: 1200px) { #btn_theme { width: 10vw; } }
 
+#btn_theme_svg { height: 24px; width: 24px; fill: #FFFF5F; }
+
 /*
 * Color Palette
 *   #000022 - Dark Blue

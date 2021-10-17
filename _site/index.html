@@ -21,8 +21,10 @@
   
 
   <button id="btn_theme" onClick={toggleThemeType()}>
-    <img id="btn_theme_img" src="assets/images/icons/dark_mode_black_24dp.svg"/>
-    <span id="btn_theme_txt">Dark Theme</span>
+    <svg id="btn_theme_svg">
+      <use id="btn_theme_svg_src" href="assets/images/icons/modes.svg#dark_mode" />
+    </svg>
+    <span id="btn_theme_txt">Dark Theme: On</span>
   </button>
 </nav>
     <div class="project-body">
