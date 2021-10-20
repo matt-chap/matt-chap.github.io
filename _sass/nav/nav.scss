@@ -5,6 +5,7 @@ nav {
     line-height: 5vh;
     font-size: 25px;
     background-color: $color_light_black;
+    display: flex;
   }
   
   nav > div {
@@ -19,11 +20,17 @@ nav {
   border-color: $header_text_color;
   border-radius: 10px;
   @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
-  float: right;
+  margin-left: auto;
 }
 
 #btn_theme_svg {
   height: 24px;
   width: 24px;
   fill: $header_text_color;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#btn_theme_txt{
+  display: inline-flex;
 }

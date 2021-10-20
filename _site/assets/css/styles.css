@@ -78,7 +78,7 @@ a::after { color: #C1C181; }
 *   #FFFF5F
 *   
 */
-nav { height: 5vh; line-height: 5vh; font-size: 25px; background-color: #00001A; }
+nav { height: 5vh; line-height: 5vh; font-size: 25px; background-color: #00001A; display: flex; }
 
 nav > div { display: inline-block; width: 30vw; text-align: center; }
 
@@ -86,13 +86,15 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 @media screen and (min-width: 1200px) { nav > div { width: 10vw; } }
 
-#btn_theme { background-color: #00001A; color: #FFFF5F; border-color: #FFFF5F; border-radius: 10px; width: 30vw; float: right; }
+#btn_theme { background-color: #00001A; color: #FFFF5F; border-color: #FFFF5F; border-radius: 10px; width: 30vw; margin-left: auto; }
 
 @media screen and (min-width: 600px) { #btn_theme { width: calc(30vw + -20 * (100vw - 600px) / 600); } }
 
 @media screen and (min-width: 1200px) { #btn_theme { width: 10vw; } }
 
-#btn_theme_svg { height: 24px; width: 24px; fill: #FFFF5F; }
+#btn_theme_svg { height: 24px; width: 24px; fill: #FFFF5F; display: inline-flex; vertical-align: middle; }
+
+#btn_theme_txt { display: inline-flex; }
 
 /*
 * Color Palette
