@@ -6,6 +6,7 @@ nav {
     font-size: 25px;
     background-color: $color_light_black;
     display: flex;
+    min-height: 30px
   }
   
   nav > div {
@@ -21,6 +22,7 @@ nav {
   border-radius: 10px;
   @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
   margin-left: auto;
+  min-width: 140px;
 }
 
 #btn_theme_svg {
