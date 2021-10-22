@@ -1,17 +1,23 @@
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; padding: 0px; margin: 0px; }
 
-h1, h2, h3, h4 { color: #FFFFFF; }
+.theme--default h1, .theme--default h2, .theme--default h3, .theme--default h4 { color: #8835b4; }
+
+.theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4 { color: #8835b4; }
 
 h3 { font-size: 4vw; color: #FFFF5F; }
 
@@ -69,15 +75,19 @@ a::after { color: #C1C181; }
 
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 nav { height: 5vh; line-height: 5vh; font-size: 25px; background-color: #00001A; display: flex; min-height: 30px; }
 
 nav > div { display: inline-block; width: 30vw; text-align: center; }
@@ -98,30 +108,38 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .nav-selected { text-decoration: none; border-bottom: #FFFF5F solid 1px; }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { color: #FFFF5F; text-decoration: none; }
 
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .nav-not-selected { text-decoration: none; }
 
 .nav-not-selected > a:link, .nav-not-selected > a:visited { color: #FFFFFF; text-decoration: none; }
@@ -130,15 +148,19 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .project-body { display: inline-block; width: 100%; text-align: center; }
 
 .project-card { background-color: #00001A; height: fit-content; width: 30vw; min-width: 90vw; margin: 5vw; text-align: center; display: inline-grid; }
@@ -151,15 +173,19 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
+/* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
 .about-side-tab { display: flex; text-align: center; padding: 20px; flex-wrap: wrap; }

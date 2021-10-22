@@ -1,12 +1,15 @@
 /*
 * Color Palette
-*   #000022 - Dark Blue
-*   #0C1F34 - Blue
-*   #102945 - Blue
-*   #555252 - Dark Grey
-*   #efebf3 - Light Grey
-*   #C1C181 - light yellow
-*   #FFFF5F
+$primary_text_color: #FFFFFF;
+$sub_header_text_color: khaki;
+$header_text_color: #FFFF5F;
+$third_text_color: #C1C181;
+
+// colors for background
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
 *   
 */
 
@@ -21,3 +24,32 @@ $color_light_black: #00001A;
 $color_dark_black: #000022;
 $color_off_white: #F7F7F7;
 $color_dark_three: slategray;
+
+
+/*
+text dark color: #bdc1c6
+background dark color: #202124
+
+
+
+$themes: (
+  light: (
+    backgroundColor: #fff,
+    textColor: #408bbd,
+    buttonTextColor: #408bbd,
+    buttonTextTransform: none,
+    buttonTextHoverColor: #61b0e7,
+    buttonColor: #fff,
+    buttonBorder: 2px solid #fff,
+  ),
+  dark: (
+    backgroundColor: #222,
+    textColor: #ddd,
+    buttonTextColor: #aaa,
+    buttonTextTransform: uppercase,
+    buttonTextHoverColor: #ddd,
+    buttonColor: #333,
+    buttonBorder: 1px solid #aaa,
+  ),
+);
+*/

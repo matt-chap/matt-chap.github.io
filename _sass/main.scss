@@ -1,6 +1,7 @@
 @import "./utilities/variables";
 @import "./utilities/dark_theme";
 @import "./utilities/light_theme";
+@import "./utilities/color_themes";
 
 
 @function strip-unit($value) {
@@ -37,6 +38,10 @@ html, body {
 }
 
 h1, h2, h3, h4 {
+/*  @include themed() {
+    color: t('bg');
+  } 
+  */
   color: $primary_text_color;
 }
 
