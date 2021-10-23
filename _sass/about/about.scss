@@ -1,10 +1,14 @@
 @import "../utilities/variables";
+@import "../utilities/theme_base";
 
 .about-body {
     display: flex;
     justify-content: center;
     width: 100%;
     text-align: center;
+    @include themed() {
+        background-color: theme-get($bg);
+      } 
 }
 
 .about-side-tab {
@@ -88,7 +92,7 @@
     word-wrap: none;
 }
 
-.about-skills-stats-good {
+.about-skills-stats-good {  
     color: $header_text_color;
 }
 

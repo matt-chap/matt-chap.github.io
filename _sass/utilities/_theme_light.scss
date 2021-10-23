@@ -1,0 +1,7 @@
+/*
+* This simply holds the light theme colors
+*/
+
+$bg--light: grey;
+$text--imp--light: #242D30;
+$text--light: lighten($text--imp--light, 12%);

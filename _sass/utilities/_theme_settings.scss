@@ -1,0 +1,63 @@
+// Static vars used to make the reference easier
+/*#region  Static Vars*/
+$bg: 'bg';
+$text: 'text';
+$text-important: 'text-important';
+$text-secondary: 'text-secondary';
+$text-badge: 'text-badge';
+$link: 'link';
+$hover: 'hover';
+$logo: 'logo';
+$logo2: 'logo-2';
+$brand-secondary: 'brand-blue';
+$brand-primary: 'brand-red';
+$border: 'border';
+/*#endregion*/
+
+
+//potential font family
+//$font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+//$font-family--title: 'Montserrat-SemiBold', 'Montserrat', $font-family;
+
+
+//GRADIENTS
+@mixin linear-gradient($from, $to) {
+    background: $to;
+    background: -moz-linear-gradient(top, $from 0%, $to 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to));
+    background: -webkit-linear-gradient(top, $from 0%,$to 100%);
+    background: -o-linear-gradient(top, $from 0%,$to 100%);
+    background: linear-gradient(to bottom, $from 0%,$to 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$from}, endColorstr=#{$to})
+}
+
+
+//HOVER
+/*
+%hover {
+transition: transform .5s;
+cursor: pointer;
+
+&::after {
+    @include card-shadow--hover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s cubic-bezier(.165, .84, .44, 1);
+    content: '';
+    opacity: 0;
+    z-index: -1;
+}
+
+&:hover,
+&:focus {
+    transform: scale3d(1.006, 1.006, 1);
+
+    &::after {
+    opacity: 1;
+    }
+}
+}
+*/

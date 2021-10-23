@@ -1,23 +1,14 @@
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
+/*#region  Static Vars*/
+/*#endregion*/
+/* %hover { transition: transform .5s; cursor: pointer; &::after { @include card-shadow--hover; position: absolute; top: 0; left: 0; width: 100%; height: 100%; transition: opacity 2s cubic-bezier(.165, .84, .44, 1); content: ''; opacity: 0; z-index: -1; } &:hover, &:focus { transform: scale3d(1.006, 1.006, 1); &::after { opacity: 1; } } } */
+/* This simply holds the dark theme colors */
+/* This simply holds the light theme colors */
 html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; padding: 0px; margin: 0px; }
 
-.theme--default h1, .theme--default h2, .theme--default h3, .theme--default h4 { color: #8835b4; }
+.theme--light h1, .theme--light h2, .theme--light h3, .theme--light h4 { color: #3e4e53; }
 
-.theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4 { color: #8835b4; }
+.theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4 { color: #cac3bc; }
 
 h3 { font-size: 4vw; color: #FFFF5F; }
 
@@ -73,20 +64,6 @@ a::after { color: #C1C181; }
 
 .float-right { float: right; }
 
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 nav { height: 5vh; line-height: 5vh; font-size: 25px; background-color: #00001A; display: flex; min-height: 30px; }
 
@@ -106,39 +83,11 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 #btn_theme_txt { display: inline-flex; }
 
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .nav-selected { text-decoration: none; border-bottom: #FFFF5F solid 1px; }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { color: #FFFF5F; text-decoration: none; }
 
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .nav-not-selected { text-decoration: none; }
 
@@ -146,20 +95,6 @@ $color_dark_three: slategray;
 
 .nav-not-selected > a:hover { color: slategray; text-decoration: none; }
 
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
 .project-body { display: inline-block; width: 100%; text-align: center; }
 
@@ -171,22 +106,17 @@ $color_dark_three: slategray;
 
 .project-image { width: 250px; height: 225px; overflow: hidden; margin: auto; }
 
-/*
-* Color Palette
-$primary_text_color: #FFFFFF;
-$sub_header_text_color: khaki;
-$header_text_color: #FFFF5F;
-$third_text_color: #C1C181;
-
-// colors for background
-$color_light_black: #00001A;
-$color_dark_black: #000022;
-$color_off_white: #F7F7F7;
-$color_dark_three: slategray;
-*   
-*/
 /* text dark color: #bdc1c6 background dark color: #202124 $themes: ( light: ( backgroundColor: #fff, textColor: #408bbd, buttonTextColor: #408bbd, buttonTextTransform: none, buttonTextHoverColor: #61b0e7, buttonColor: #fff, buttonBorder: 2px solid #fff, ), dark: ( backgroundColor: #222, textColor: #ddd, buttonTextColor: #aaa, buttonTextTransform: uppercase, buttonTextHoverColor: #ddd, buttonColor: #333, buttonBorder: 1px solid #aaa, ), ); */
+/*#region  Static Vars*/
+/*#endregion*/
+/* %hover { transition: transform .5s; cursor: pointer; &::after { @include card-shadow--hover; position: absolute; top: 0; left: 0; width: 100%; height: 100%; transition: opacity 2s cubic-bezier(.165, .84, .44, 1); content: ''; opacity: 0; z-index: -1; } &:hover, &:focus { transform: scale3d(1.006, 1.006, 1); &::after { opacity: 1; } } } */
+/* This simply holds the dark theme colors */
+/* This simply holds the light theme colors */
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
+
+.theme--light .about-body { background-color: grey; }
+
+.theme--dark .about-body { background-color: #333848; }
 
 .about-side-tab { display: flex; text-align: center; padding: 20px; flex-wrap: wrap; }
 
