@@ -5,11 +5,13 @@
 $themes: (
     light: (
             bg: $bg--light,
-            text: $text--light
+            text: $text--light,
+            head: $header-text--light
     ),
     dark: (
-            bg: $bg--dark--top,
-            text: $text--dark
+            bg: $bg--dark,
+            text: $text--dark,
+            head: $header-text--dark
     ),
 );
 

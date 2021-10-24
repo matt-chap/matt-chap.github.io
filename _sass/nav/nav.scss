@@ -1,10 +1,14 @@
 @import "../utilities/variables";
+@import "../utilities/theme_base";
 
 nav {
     height: 5vh;
     line-height: 5vh;
     font-size: 25px;
-    background-color: $color_light_black;
+    @include themed() {
+      background-color: theme-get($bg);
+      color: theme-get($head);
+    }
     display: flex;
     min-height: 30px
   }
@@ -16,8 +20,10 @@ nav {
   }
   
 #btn_theme {
-  background-color: $color_light_black;
-  color: $header_text_color;
+  @include themed() {
+    background-color: theme-get($bg);
+    color: theme-get($head);
+  } 
   border-color: $header_text_color;
   border-radius: 10px;
   @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
@@ -28,9 +34,11 @@ nav {
 #btn_theme_svg {
   height: 24px;
   width: 24px;
-  fill: $header_text_color;
   display: inline-flex;
   vertical-align: middle;
+  @include themed() {
+    fill: theme-get($head);
+  } 
 }
 
 #btn_theme_txt{
