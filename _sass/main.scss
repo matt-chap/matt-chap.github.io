@@ -78,13 +78,14 @@ p {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
   @include themed() {
     color: theme-get($text);
-  } 
-  color: $primary_text_color;
+  }
 }
 
 li {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: $primary_text_color;
+  @include themed() {
+    color: theme-get($text);
+  } 
 }
 
 ul {
@@ -94,7 +95,9 @@ ul {
 
 a {
   @include fluid-type(font-size, 600px, 1200px, 4vw, 1vw);
-  color: $header_text_color;
+  @include themed() {
+    color: theme-get($head);
+  } 
 }
 
 a::before{

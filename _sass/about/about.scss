@@ -8,7 +8,7 @@
     text-align: center;
     @include themed() {
         background-color: theme-get($bg);
-      } 
+    } 
 }
 
 .about-side-tab {
@@ -66,6 +66,7 @@
 .about-sub-header {
     color: $sub_header_text_color;
     font-size: 1em;
+
 }
 
 .about-skills-container {
@@ -85,19 +86,25 @@
     padding: 0px 10px;
     width: 150px;
     font-size: 1.25rem;
-    color: $header_text_color;
+    @include themed() {
+        color: theme-get($head);
+    }
 }
 
 .about-skills-stats {
     word-wrap: none;
 }
 
-.about-skills-stats-good {  
-    color: $header_text_color;
+.about-skills-stats-good {
+    @include themed() {
+        color: theme-get($head);
+    }
 }
 
 .about-skills-stats-working {
-    color: slategray;
+    @include themed() {
+        color: theme-get($text);
+    }
 }
 
 @media only screen and (max-width: 1000px) {

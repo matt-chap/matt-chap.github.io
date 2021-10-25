@@ -1,11 +1,18 @@
 @import "../utilities/variables";
+@import "../utilities/theme_base";
 
 .nav-selected {
   text-decoration: none;
-  border-bottom: $header_text_color solid 1px
+  @include themed() {
+    border-bottom-color: theme-get($head);
+  }
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover{ 
-  color: $header_text_color;
+  @include themed() {
+    color: theme-get($head);
+  }
   text-decoration: none;
 }

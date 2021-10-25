@@ -1,15 +1,20 @@
 @import "../utilities/variables";
+@import "../utilities/theme_base";
 
 .nav-not-selected {
   text-decoration: none;
 }
 
 .nav-not-selected > a:link, .nav-not-selected > a:visited { 
-  color: $primary_text_color;
   text-decoration: none;
+  @include themed() {
+    color: theme-get($text);
+  }
 }
 
 .nav-not-selected > a:hover  { 
-  color: $color_dark_three;
   text-decoration: none;
+  @include themed() {
+    color: theme-get($head);
+  }
 }
