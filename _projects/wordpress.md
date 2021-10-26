@@ -6,4 +6,4 @@ image_alt: Wordpress Site
 image_width: 100
 link: wordpress
 ---
-Created a site to gain experince in Wordpress.
+Created a site to gain experience in Wordpress.

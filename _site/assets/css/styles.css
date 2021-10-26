@@ -1,24 +1,36 @@
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
-html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; background-color: #000022; padding: 0px; margin: 0px; }
+html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; padding: 0px; margin: 0px; }
 
 .theme--light h1, .theme--light h2, .theme--light h3, .theme--light h4 { color: #F0F4F8; }
 
 .theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4 { color: #F0F4F8; }
 
-h3 { font-size: 4vw; color: #FFFF5F; }
+h3 { font-size: 4vw; }
 
 @media screen and (min-width: 600px) { h3 { font-size: calc(4vw + -2 * (100vw - 600px) / 600); } }
 
 @media screen and (min-width: 1200px) { h3 { font-size: 2vw; } }
 
-h4 { color: #C1C181; }
+.theme--light h3 { color: #F0F4F8; }
+
+.theme--dark h3 { color: #F0F4F8; }
+
+.theme--light h4 { color: #F0F4F8; }
+
+.theme--dark h4 { color: #F0F4F8; }
 
 b { font-weight: bold; }
 
@@ -30,13 +42,19 @@ h3, h4 { font-size: 4vw; text-align: left; margin: 5px 0px; }
 
 @media screen and (min-width: 1200px) { h3, h4 { font-size: 1vw; } }
 
-i { font-size: 4vw; color: #FFFFFF; }
+i { font-size: 4vw; }
 
 @media screen and (min-width: 600px) { i { font-size: calc(4vw + -3 * (100vw - 600px) / 600); } }
 
 @media screen and (min-width: 1200px) { i { font-size: 1vw; } }
 
-tr { color: #FFFFFF; }
+.theme--light i { color: grey; }
+
+.theme--dark i { color: #BCCCDC; }
+
+.theme--light tr { color: grey; }
+
+.theme--dark tr { color: #BCCCDC; }
 
 p { font-size: 4vw; }
 
@@ -70,21 +88,31 @@ a { font-size: 4vw; }
 
 .theme--dark a { color: #F0F4F8; }
 
-a::before { color: #FFFF5F; }
+.theme--light a::before { color: #F0F4F8; }
 
-a::after { color: #C1C181; }
+.theme--dark a::before { color: #F0F4F8; }
+
+.theme--light a::after { color: #F0F4F8; }
+
+.theme--dark a::after { color: #F0F4F8; }
 
 .float-left { float: left; }
 
 .float-right { float: right; }
 
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
 nav { height: 5vh; line-height: 5vh; font-size: 25px; display: flex; min-height: 30px; }
 
@@ -116,13 +144,19 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 #btn_theme_txt { display: inline-flex; }
 
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
 .nav-selected { text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; }
 
@@ -136,13 +170,19 @@ background dark color: #202124
 
 .theme--dark .nav-selected > a:link, .theme--dark .nav-selected > a:visited, .theme--dark .nav-selected > a:hover { color: #F0F4F8; }
 
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
 .nav-not-selected { text-decoration: none; }
 
@@ -158,13 +198,19 @@ background dark color: #202124
 
 .theme--dark .nav-not-selected > a:hover { color: #F0F4F8; }
 
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
 .project-body { display: inline-block; width: 100%; height: 100%; text-align: center; }
 
@@ -184,13 +230,19 @@ background dark color: #202124
 
 .project-image { width: 250px; height: 225px; overflow: hidden; margin: auto; }
 
+/*#region  Static Vars*/
+/*#endregion*/
+/* This simply holds the dark theme colors */
 /*
 text dark color: #bdc1c6
 background dark color: #202124
 */
-/*#region  Static Vars*/
-/*#endregion*/
-/* This simply holds the dark theme colors */
+/*
+$color_light_black: #00001A;
+$color_dark_black: #000022;
+$color_off_white: #F7F7F7;
+$color_dark_three: slategray;
+*/
 /* This simply holds the light theme colors */
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
@@ -216,7 +268,11 @@ background dark color: #202124
 
 .about-header { font-size: 3em; }
 
-.about-sub-header { color: khaki; font-size: 1em; }
+.about-sub-header { font-size: 1em; }
+
+.theme--light .about-sub-header { color: #F0F4F8; }
+
+.theme--dark .about-sub-header { color: #F0F4F8; }
 
 .about-skills-container { display: flex; justify-content: center; flex-wrap: wrap; }
 
