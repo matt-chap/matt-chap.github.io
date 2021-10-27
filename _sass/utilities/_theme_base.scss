@@ -6,12 +6,14 @@ $themes: (
     light: (
             bg: $bg--light,
             text: $text--light,
-            head: $header-text--light
+            head: $header-text--light,
+            subhead: $subhead-text--light
     ),
     dark: (
             bg: $bg--dark,
             text: $text--dark,
-            head: $header-text--dark
+            head: $header-text--dark,
+            subhead: $subhead-text--dark
     ),
 );
 
