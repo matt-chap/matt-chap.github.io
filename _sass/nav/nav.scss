@@ -5,7 +5,7 @@ nav {
     line-height: 5vh;
     font-size: 25px;
     @include themed() {
-      background-color: theme-get($bg);
+      background: theme-get($bg-overlay);
       color: theme-get($head);
     }
     display: flex;
@@ -20,10 +20,10 @@ nav {
   
 #btn_theme {
   @include themed() {
-    background-color: theme-get($bg);
     color: theme-get($head);
     border-color: theme-get($head);
   }
+  background-color: transparent;
   border-radius: 10px;
   @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
   margin-left: auto;

@@ -116,9 +116,9 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 nav { height: 5vh; line-height: 5vh; font-size: 25px; display: flex; min-height: 30px; }
 
-.theme--light nav { background-color: #242D30; color: #F0F4F8; }
+.theme--light nav { background: rgba(36, 45, 48, 0.92); color: #F0F4F8; }
 
-.theme--dark nav { background-color: #102A43; color: #F0F4F8; }
+.theme--dark nav { background: rgba(16, 42, 67, 0.92); color: #F0F4F8; }
 
 nav > div { display: inline-block; width: 30vw; text-align: center; }
 
@@ -126,11 +126,11 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 @media screen and (min-width: 1200px) { nav > div { width: 10vw; } }
 
-#btn_theme { border-radius: 10px; width: 30vw; margin-left: auto; min-width: 140px; }
+#btn_theme { background-color: transparent; border-radius: 10px; width: 30vw; margin-left: auto; min-width: 140px; }
 
-.theme--light #btn_theme { background-color: #242D30; color: #F0F4F8; border-color: #F0F4F8; }
+.theme--light #btn_theme { color: #F0F4F8; border-color: #F0F4F8; }
 
-.theme--dark #btn_theme { background-color: #102A43; color: #F0F4F8; border-color: #F0F4F8; }
+.theme--dark #btn_theme { color: #F0F4F8; border-color: #F0F4F8; }
 
 @media screen and (min-width: 600px) { #btn_theme { width: calc(30vw + -20 * (100vw - 600px) / 600); } }
 
