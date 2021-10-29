@@ -18,7 +18,7 @@
     text-align: center;
     display: inline-grid;
     @include themed() {
-        background-color: theme-get($bg);
+        background: theme-get($bg-overlay);
         border: theme-get($head) solid 1px;
         border-radius: 5%;
     }
