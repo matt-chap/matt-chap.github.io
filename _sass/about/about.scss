@@ -103,7 +103,7 @@
 
 .about-skills-stats-working {
     @include themed() {
-        color: theme-get($text);
+        color: theme-get($text-disabled);
     }
 }
 

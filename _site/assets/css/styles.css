@@ -48,13 +48,13 @@ i { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { i { font-size: 1vw; } }
 
-.theme--light i { color: #BCCCDC; }
+.theme--light i { color: rgba(255, 255, 255, 0.8); }
 
-.theme--dark i { color: rgba(255, 255, 255, 0.7); }
+.theme--dark i { color: rgba(255, 255, 255, 0.8); }
 
-.theme--light tr { color: #BCCCDC; }
+.theme--light tr { color: rgba(255, 255, 255, 0.8); }
 
-.theme--dark tr { color: rgba(255, 255, 255, 0.7); }
+.theme--dark tr { color: rgba(255, 255, 255, 0.8); }
 
 p { font-size: 4vw; }
 
@@ -62,9 +62,9 @@ p { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { p { font-size: 1vw; } }
 
-.theme--light p { color: #BCCCDC; }
+.theme--light p { color: rgba(255, 255, 255, 0.8); }
 
-.theme--dark p { color: rgba(255, 255, 255, 0.7); }
+.theme--dark p { color: rgba(255, 255, 255, 0.8); }
 
 li { font-size: 4vw; }
 
@@ -72,9 +72,9 @@ li { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { li { font-size: 1vw; } }
 
-.theme--light li { color: #BCCCDC; }
+.theme--light li { color: rgba(255, 255, 255, 0.8); }
 
-.theme--dark li { color: rgba(255, 255, 255, 0.7); }
+.theme--dark li { color: rgba(255, 255, 255, 0.8); }
 
 ul { text-align: center; width: 50px; }
 
@@ -188,9 +188,9 @@ $color_dark_three: slategray;
 
 .nav-not-selected > a:link, .nav-not-selected > a:visited { text-decoration: none; }
 
-.theme--light .nav-not-selected > a:link, .theme--light .nav-not-selected > a:visited { color: #BCCCDC; }
+.theme--light .nav-not-selected > a:link, .theme--light .nav-not-selected > a:visited { color: rgba(255, 255, 255, 0.8); }
 
-.theme--dark .nav-not-selected > a:link, .theme--dark .nav-not-selected > a:visited { color: rgba(255, 255, 255, 0.7); }
+.theme--dark .nav-not-selected > a:link, .theme--dark .nav-not-selected > a:visited { color: rgba(255, 255, 255, 0.8); }
 
 .nav-not-selected > a:hover { text-decoration: none; }
 
@@ -290,9 +290,9 @@ $color_dark_three: slategray;
 
 .theme--dark .about-skills-stats-good { color: #FFFFFF; }
 
-.theme--light .about-skills-stats-working { color: #BCCCDC; }
+.theme--light .about-skills-stats-working { color: rgba(255, 255, 255, 0.4); }
 
-.theme--dark .about-skills-stats-working { color: rgba(255, 255, 255, 0.7); }
+.theme--dark .about-skills-stats-working { color: rgba(255, 255, 255, 0.4); }
 
 @media only screen and (max-width: 1000px) { .about-img-social-container { flex-basis: 100%; } .about-sum-tech-container { flex-basis: 100%; } }
 

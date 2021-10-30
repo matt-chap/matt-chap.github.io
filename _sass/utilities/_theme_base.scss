@@ -8,14 +8,16 @@ $themes: (
             bg-overlay: $bg-overlay--light,
             text: $text--light,
             head: $header-text--light,
-            subhead: $subhead-text--light
+            subhead: $subhead-text--light,
+            text-disabled: $text-disabled--light
     ),
     dark: (
             bg: $bg--dark,
             bg-overlay: $bg-overlay--dark,
             text: $text--dark,
             head: $header-text--dark,
-            subhead: $subhead-text--dark
+            subhead: $subhead-text--dark,
+            text-disabled: $text-disabled--dark
     ),
 );
 
