@@ -48,7 +48,7 @@ h3{
 
 h4{
   @include themed() {
-    color: theme-get($subhead);
+    color: theme-get($head);
   } 
 }
 

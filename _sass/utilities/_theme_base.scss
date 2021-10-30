@@ -9,7 +9,8 @@ $themes: (
             text: $text--light,
             head: $header-text--light,
             subhead: $subhead-text--light,
-            text-disabled: $text-disabled--light
+            text-disabled: $text-disabled--light,
+            text-color: $text-color--light
     ),
     dark: (
             bg: $bg--dark,
@@ -17,7 +18,8 @@ $themes: (
             text: $text--dark,
             head: $header-text--dark,
             subhead: $subhead-text--dark,
-            text-disabled: $text-disabled--dark
+            text-disabled: $text-disabled--dark,
+            text-color: $text-color--dark
     ),
 );
 
