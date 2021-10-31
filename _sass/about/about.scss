@@ -115,3 +115,9 @@
         flex-basis: 100%;
     }
 }
+
+b {
+    @include themed() {
+        color: theme-get($head);
+    }
+}

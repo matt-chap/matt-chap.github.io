@@ -296,4 +296,8 @@ $color_dark_three: slategray;
 
 @media only screen and (max-width: 1000px) { .about-img-social-container { flex-basis: 100%; } .about-sum-tech-container { flex-basis: 100%; } }
 
+.theme--light b { color: #F0F4F8; }
+
+.theme--dark b { color: #FFFFFF; }
+
 /*# sourceMappingURL=styles.css.map */
