@@ -14,7 +14,7 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 html, body { height: 100%; width: 100%; font-family: "Open Sans",sans-serif; font-weight: 300; padding: 0px; margin: 0px; }
 
-.theme--light h1, .theme--light h2, .theme--light h3, .theme--light h4 { color: #F0F4F8; }
+.theme--light h1, .theme--light h2, .theme--light h3, .theme--light h4 { color: #000000; }
 
 .theme--dark h1, .theme--dark h2, .theme--dark h3, .theme--dark h4 { color: #FFFFFF; }
 
@@ -24,11 +24,11 @@ h3 { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { h3 { font-size: 2vw; } }
 
-.theme--light h3 { color: #F0F4F8; }
+.theme--light h3 { color: #000000; }
 
 .theme--dark h3 { color: #FFFFFF; }
 
-.theme--light h4 { color: #F0F4F8; }
+.theme--light h4 { color: #000000; }
 
 .theme--dark h4 { color: #FFFFFF; }
 
@@ -48,11 +48,11 @@ i { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { i { font-size: 1vw; } }
 
-.theme--light i { color: rgba(255, 255, 255, 0.8); }
+.theme--light i { color: rgba(0, 0, 0, 0.8); }
 
 .theme--dark i { color: rgba(255, 255, 255, 0.8); }
 
-.theme--light tr { color: rgba(255, 255, 255, 0.8); }
+.theme--light tr { color: rgba(0, 0, 0, 0.8); }
 
 .theme--dark tr { color: rgba(255, 255, 255, 0.8); }
 
@@ -62,7 +62,7 @@ p { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { p { font-size: 1vw; } }
 
-.theme--light p { color: rgba(255, 255, 255, 0.8); }
+.theme--light p { color: rgba(0, 0, 0, 0.8); }
 
 .theme--dark p { color: rgba(255, 255, 255, 0.8); }
 
@@ -72,7 +72,7 @@ li { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { li { font-size: 1vw; } }
 
-.theme--light li { color: rgba(255, 255, 255, 0.8); }
+.theme--light li { color: rgba(0, 0, 0, 0.8); }
 
 .theme--dark li { color: rgba(255, 255, 255, 0.8); }
 
@@ -84,15 +84,15 @@ a { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { a { font-size: 1vw; } }
 
-.theme--light a { color: #F0F4F8; }
+.theme--light a { color: #000000; }
 
 .theme--dark a { color: #FFFFFF; }
 
-.theme--light a::before { color: #F0F4F8; }
+.theme--light a::before { color: #000000; }
 
 .theme--dark a::before { color: #FFFFFF; }
 
-.theme--light a::after { color: #F0F4F8; }
+.theme--light a::after { color: #000000; }
 
 .theme--dark a::after { color: #FFFFFF; }
 
@@ -116,7 +116,7 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 nav { height: 5vh; line-height: 5vh; font-size: 25px; display: flex; min-height: 30px; }
 
-.theme--light nav { background: rgba(16, 42, 67, 0.92); color: #F0F4F8; }
+.theme--light nav { background: rgba(0, 0, 0, 0.08); color: #000000; }
 
 .theme--dark nav { background: #333333; color: #FFFFFF; }
 
@@ -128,7 +128,7 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 #btn_theme { background-color: transparent; border-radius: 10px; width: 30vw; margin-left: auto; min-width: 140px; }
 
-.theme--light #btn_theme { color: #F0F4F8; border-color: #F0F4F8; }
+.theme--light #btn_theme { color: #000000; border-color: #000000; }
 
 .theme--dark #btn_theme { color: #FFFFFF; border-color: #FFFFFF; }
 
@@ -138,7 +138,7 @@ nav > div { display: inline-block; width: 30vw; text-align: center; }
 
 #btn_theme_svg { height: 24px; width: 24px; display: inline-flex; vertical-align: middle; }
 
-.theme--light #btn_theme_svg { fill: #F0F4F8; }
+.theme--light #btn_theme_svg { fill: #000000; }
 
 .theme--dark #btn_theme_svg { fill: #FFFFFF; }
 
@@ -160,13 +160,13 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 .nav-selected { text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; }
 
-.theme--light .nav-selected { border-bottom-color: #F0F4F8; }
+.theme--light .nav-selected { border-bottom-color: #000000; }
 
 .theme--dark .nav-selected { border-bottom-color: #FFFFFF; }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { text-decoration: none; }
 
-.theme--light .nav-selected > a:link, .theme--light .nav-selected > a:visited, .theme--light .nav-selected > a:hover { color: #F0F4F8; }
+.theme--light .nav-selected > a:link, .theme--light .nav-selected > a:visited, .theme--light .nav-selected > a:hover { color: #000000; }
 
 .theme--dark .nav-selected > a:link, .theme--dark .nav-selected > a:visited, .theme--dark .nav-selected > a:hover { color: #FFFFFF; }
 
@@ -188,13 +188,13 @@ $color_dark_three: slategray;
 
 .nav-not-selected > a:link, .nav-not-selected > a:visited { text-decoration: none; }
 
-.theme--light .nav-not-selected > a:link, .theme--light .nav-not-selected > a:visited { color: rgba(255, 255, 255, 0.8); }
+.theme--light .nav-not-selected > a:link, .theme--light .nav-not-selected > a:visited { color: rgba(0, 0, 0, 0.8); }
 
 .theme--dark .nav-not-selected > a:link, .theme--dark .nav-not-selected > a:visited { color: rgba(255, 255, 255, 0.8); }
 
 .nav-not-selected > a:hover { text-decoration: none; }
 
-.theme--light .nav-not-selected > a:hover { color: #F0F4F8; }
+.theme--light .nav-not-selected > a:hover { color: #000000; }
 
 .theme--dark .nav-not-selected > a:hover { color: #FFFFFF; }
 
@@ -214,7 +214,7 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 .project-body { display: inline-block; width: 100%; height: 100%; text-align: center; }
 
-.theme--light .project-body { background-color: #102A43; }
+.theme--light .project-body { background-color: #ffffff; }
 
 .theme--dark .project-body { background-color: #121212; }
 
@@ -224,7 +224,7 @@ $color_dark_three: slategray;
 
 @media screen and (min-width: 1200px) { .project-card { min-width: 30vw; } }
 
-.theme--light .project-card { background: rgba(16, 42, 67, 0.92); border: #F0F4F8 solid 1px; border-radius: 5%; }
+.theme--light .project-card { background: rgba(0, 0, 0, 0.08); border: #000000 solid 1px; border-radius: 5%; }
 
 .theme--dark .project-card { background: #333333; border: #FFFFFF solid 1px; border-radius: 5%; }
 
@@ -246,7 +246,7 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 .about-body { display: flex; justify-content: center; width: 100%; text-align: center; }
 
-.theme--light .about-body { background-color: #102A43; }
+.theme--light .about-body { background-color: #ffffff; }
 
 .theme--dark .about-body { background-color: #121212; }
 
@@ -270,7 +270,7 @@ $color_dark_three: slategray;
 
 .about-sub-header { font-size: 1em; }
 
-.theme--light .about-sub-header { color: #39ace7; }
+.theme--light .about-sub-header { color: #0d0f91; }
 
 .theme--dark .about-sub-header { color: #39ace7; }
 
@@ -280,23 +280,23 @@ $color_dark_three: slategray;
 
 .about-skills-name { padding: 0px 10px; width: 150px; font-size: 1.25rem; }
 
-.theme--light .about-skills-name { color: #F0F4F8; }
+.theme--light .about-skills-name { color: #000000; }
 
 .theme--dark .about-skills-name { color: #FFFFFF; }
 
 .about-skills-stats { word-wrap: none; }
 
-.theme--light .about-skills-stats-good { color: #39ace7; }
+.theme--light .about-skills-stats-good { color: #0d0f91; }
 
 .theme--dark .about-skills-stats-good { color: #39ace7; }
 
-.theme--light .about-skills-stats-working { color: rgba(255, 255, 255, 0.4); }
+.theme--light .about-skills-stats-working { color: rgba(0, 0, 0, 0.4); }
 
 .theme--dark .about-skills-stats-working { color: rgba(255, 255, 255, 0.4); }
 
 @media only screen and (max-width: 1000px) { .about-img-social-container { flex-basis: 100%; } .about-sum-tech-container { flex-basis: 100%; } }
 
-.theme--light b { color: #F0F4F8; }
+.theme--light b { color: #000000; }
 
 .theme--dark b { color: #FFFFFF; }
 
