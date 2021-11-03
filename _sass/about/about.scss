@@ -121,3 +121,10 @@ b {
         color: theme-get($head);
     }
 }
+
+.svg-icons {
+    @include themed() {
+        fill: theme-get($head);
+    }
+    padding: 10px;
+}

@@ -300,4 +300,10 @@ $color_dark_three: slategray;
 
 .theme--dark b { color: #FFFFFF; }
 
+.svg-icons { padding: 10px; }
+
+.theme--light .svg-icons { fill: #000000; }
+
+.theme--dark .svg-icons { fill: #FFFFFF; }
+
 /*# sourceMappingURL=styles.css.map */
