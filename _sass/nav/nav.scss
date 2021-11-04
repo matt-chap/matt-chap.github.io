@@ -25,9 +25,12 @@ nav {
   }
   background-color: transparent;
   border-radius: 10px;
-  @include fluid-type(width, 600px, 1200px, 30vw, 10vw);
+  @include fluid-type(width, 600px, 1200px, 10vw, 3vw);
   margin-left: auto;
-  min-width: 140px;
+  min-width: 30px;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #btn_theme_svg {
@@ -38,8 +41,4 @@ nav {
   @include themed() {
     fill: theme-get($head);
   } 
-}
-
-#btn_theme_txt{
-  display: inline-flex;
 }
