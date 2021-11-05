@@ -21,16 +21,13 @@ nav {
 #btn_theme {
   @include themed() {
     color: theme-get($head);
-    border-color: theme-get($head);
   }
   background-color: transparent;
-  border-radius: 10px;
   @include fluid-type(width, 600px, 1200px, 10vw, 3vw);
   margin-left: auto;
   min-width: 30px;
   cursor: pointer;
-  margin-top: auto;
-  margin-bottom: auto;
+  border: 0px none;
 }
 
 #btn_theme_svg {
