@@ -1,0 +1,16 @@
+---
+layout: default
+title: My Projects
+---
+
+<div class="project-body">
+  {% for project in site.projects %}
+  <div class="project-card" onclick="location.href='/{{project.link}}.html';">
+    <h2>{{ project.name }}</h2>
+    <div class="project-image">
+      <img src="{{ project.image_url }}" alt="{{ project.image_alt }}" width="{{project.image_width}}" />
+    </div>
+    <div style="padding: 0vh 1vw;">{{ project.content }}</div>
+  </div>
+  {% endfor %}
+</div>
