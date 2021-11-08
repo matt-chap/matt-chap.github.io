@@ -84,9 +84,9 @@ a { font-size: 4vw; }
 
 @media screen and (min-width: 1200px) { a { font-size: 1vw; } }
 
-.theme--light a { color: #000000; }
+.theme--light a { color: #0d0f91; }
 
-.theme--dark a { color: #FFFFFF; }
+.theme--dark a { color: #39ace7; }
 
 .theme--light a::before { color: #000000; }
 
@@ -158,15 +158,15 @@ $color_dark_three: slategray;
 /* This simply holds the light theme colors */
 .nav-selected { text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; }
 
-.theme--light .nav-selected { border-bottom-color: #000000; }
+.theme--light .nav-selected { border-bottom-color: #0d0f91; }
 
-.theme--dark .nav-selected { border-bottom-color: #FFFFFF; }
+.theme--dark .nav-selected { border-bottom-color: #39ace7; }
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover { text-decoration: none; }
 
-.theme--light .nav-selected > a:link, .theme--light .nav-selected > a:visited, .theme--light .nav-selected > a:hover { color: #000000; }
+.theme--light .nav-selected > a:link, .theme--light .nav-selected > a:visited, .theme--light .nav-selected > a:hover { color: #0d0f91; }
 
-.theme--dark .nav-selected > a:link, .theme--dark .nav-selected > a:visited, .theme--dark .nav-selected > a:hover { color: #FFFFFF; }
+.theme--dark .nav-selected > a:link, .theme--dark .nav-selected > a:visited, .theme--dark .nav-selected > a:hover { color: #39ace7; }
 
 /*#region  Static Vars*/
 /*#endregion*/
@@ -303,5 +303,9 @@ $color_dark_three: slategray;
 .theme--light .svg-icons { fill: #000000; }
 
 .theme--dark .svg-icons { fill: #FFFFFF; }
+
+.theme--light .about-social-txt { color: #0d0f91; }
+
+.theme--dark .about-social-txt { color: #39ace7; }
 
 /*# sourceMappingURL=styles.css.map */

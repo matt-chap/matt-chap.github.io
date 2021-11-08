@@ -3,7 +3,7 @@
 .nav-selected {
   text-decoration: none;
   @include themed() {
-    border-bottom-color: theme-get($head);
+    border-bottom-color: theme-get($text-color);
   }
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -11,7 +11,7 @@
 
 .nav-selected > a:link, .nav-selected > a:visited, .nav-selected > a:hover{ 
   @include themed() {
-    color: theme-get($head);
+    color: theme-get($text-color);
   }
   text-decoration: none;
 }

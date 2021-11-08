@@ -128,3 +128,9 @@ b {
     }
     padding: 10px;
 }
+
+.about-social-txt {
+    @include themed() {
+        color: theme-get($text-color);
+    }
+}
